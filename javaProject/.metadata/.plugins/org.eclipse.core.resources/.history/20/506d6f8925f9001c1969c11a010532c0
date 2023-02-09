@@ -1,0 +1,10 @@
+package javaSelenium;
+
+public class Object_Creation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

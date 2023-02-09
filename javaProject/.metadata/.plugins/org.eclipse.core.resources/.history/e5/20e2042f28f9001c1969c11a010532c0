@@ -1,0 +1,32 @@
+package javaSelenium;
+
+public class Object_Creation {
+	
+	int x;  // Create a class attribute
+	
+	public Object_Creation() {
+		 x = 5;  // Set the initial value for the class attribute x
+		 String y ="Amit";
+		}
+	
+	 // Static method
+	  static void myStaticMethod() {
+	    System.out.println("Static methods can be called without creating objects");
+	    
+	    
+	  }
+	// Public method
+	  public void myPublicMethod() {
+	    System.out.println("Public methods must be called by creating objects " + y);
+	  }
+
+	public static void main(String[] args) {
+		Object_Creation myObj = new Object_Creation(); // Create an object of class Main (This will call the constructor)
+		 System.out.println(myObj.x); // Print the value of x
+		myObj.myStaticMethod();
+		//myObj.myPublicMethod("Preeti");
+		myObj.myPublicMethod();
+
+	}
+
+}

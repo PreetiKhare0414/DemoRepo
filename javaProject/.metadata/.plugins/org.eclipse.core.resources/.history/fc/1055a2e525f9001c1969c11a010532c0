@@ -1,0 +1,18 @@
+package javaSelenium;
+
+public class Object_Creation {
+	
+	int x;  // Create a class attribute
+	
+	public Object_Creation() {
+		 x = 5;  // Set the initial value for the class attribute x
+		}
+
+
+	public static void main(String[] args) {
+		Object_Creation myObj = new Object_Creation(); // Create an object of class Main (This will call the constructor)
+		 System.out.println(myObj.x); // Print the value of x
+
+	}
+
+}
