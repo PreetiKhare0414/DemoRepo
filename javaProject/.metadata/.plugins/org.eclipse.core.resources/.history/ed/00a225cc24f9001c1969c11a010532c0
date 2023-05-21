@@ -1,0 +1,14 @@
+package javaSelenium;
+
+public class Amit {
+
+	public static void main(String[] args) {
+		System.out.println("Amit Loves preeti");
+		myMethod("Amit","Preeti");
+		myMethod("Amit","niku");
+	}
+	static void myMethod(String var2,String var1)  {
+		System.out.println( var2 + " loves " + var1);
+	  }
+
+}

@@ -1,0 +1,9 @@
+Command
+
+Add
+Commit
+Status
+Push
+Pull
+Branch
+Checkout
